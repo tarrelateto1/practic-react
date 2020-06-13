@@ -9,9 +9,9 @@ import FooterComponent from "../components/FooterComponent";
 
 import {Route, Switch} from 'react-router-dom';
 // Contents
-import Home from "./Contents/Home";
-import Promotion from "./Contents/Promotion";
-import Profile from "./Contents/Profile";
+import Home from "./Contents/Main/Home";
+import Promotion from "./Contents/Main/Promotion";
+import Profile from "./Contents/Main/Profile";
 
 
 function App() {

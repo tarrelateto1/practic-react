@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {Layout, Menu} from 'antd';
 import {TeamOutlined, UserOutlined,} from '@ant-design/icons';
+import {Link} from "react-router-dom";
 
 const {Sider}=Layout;
 const {SubMenu}=Menu;
@@ -19,10 +20,12 @@ class SiderComponent extends Component {
                 }}
             >
                 <div className="logo"/>
-                <Menu theme="dark"  mode="inline">
+                <Menu theme="dark" mode="inline">
                     <SubMenu key="sub1" icon={<UserOutlined/>} title="งานเกม">
-                        <Menu.Item key="1">Tom</Menu.Item>
-                        <Menu.Item key="2">Bill</Menu.Item>
+                        <Menu.Item key="1">เกมคิดเลข
+                            <Link to="/search"/>
+                        </Menu.Item>
+                        <Menu.Item key="2">เกมฟาร์ม</Menu.Item>
                         <Menu.Item key="3">Alex</Menu.Item>
                     </SubMenu>
                     <SubMenu key="sub2" icon={<UserOutlined/>} title="งานแบบสอบถาม">
