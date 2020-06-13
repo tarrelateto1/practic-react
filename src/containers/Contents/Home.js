@@ -15,7 +15,7 @@ class Home extends Component{
                     <Col sm={{span:24}} md={{span:24}} lg={{span:24}} xl={{span:24}}>
                 <Carousel autoplay>
                     <div>
-                        <h3>1</h3>
+                        <h3>build </h3>
                     </div>
                     <div>
                         <h3>2</h3>
