@@ -2,7 +2,7 @@ import React, {Component} from "react";
 import {Card, Carousel, Layout} from "antd";
 import { Row, Col } from 'antd';
 
-import '../../styles/Home.css'
+import '../../../styles/Home.css'
 
 const { Meta } = Card;
 const {Content} = Layout

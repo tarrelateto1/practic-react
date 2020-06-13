@@ -4,7 +4,7 @@ import {Link} from "react-router-dom";
 
 const {Header}=Layout;
 
-class HeaderComponent extends Component {
+export class HeaderComponent extends Component {
 
 
     render() {

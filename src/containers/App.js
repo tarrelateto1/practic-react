@@ -2,12 +2,14 @@ import React from 'react';
 import {Layout} from 'antd';
 import './App.css';
 //Components
-import SiderComponent from '../components/SiderComponent'
+import SiderComponent from "../components/SiderComponent";
 import HeaderComponent from "../components/HeaderComponent";
 import FooterComponent from "../components/FooterComponent";
-import Home from "./Contents/Home";
+
 
 import {Route, Switch} from 'react-router-dom';
+// Contents
+import Home from "./Contents/Home";
 import Promotion from "./Contents/Promotion";
 import Profile from "./Contents/Profile";
 
