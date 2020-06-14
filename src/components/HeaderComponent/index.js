@@ -15,14 +15,14 @@ export class HeaderComponent extends Component {
                         Home
                         <Link to="/"/>
                     </Menu.Item>
-                    <Menu.Item key="2">
+                    {/* <Menu.Item key="2">
                         Promotion
                         <Link to="/search"/>
                     </Menu.Item>
                     <Menu.Item key="3">
                         Profile
                         <Link to="/profile"/>
-                    </Menu.Item>
+                    </Menu.Item> */}
                 </Menu>
             </Header>
         )
