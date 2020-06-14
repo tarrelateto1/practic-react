@@ -26,16 +26,13 @@ class SiderComponent extends Component {
                             <Link to="/search"/>
                         </Menu.Item>
                         <Menu.Item key="2">เกมฟาร์ม</Menu.Item>
-                        <Menu.Item key="3">Alex</Menu.Item>
                     </SubMenu>
                     <SubMenu key="sub2" icon={<UserOutlined/>} title="งานแบบสอบถาม">
-                        <Menu.Item key="4">Tom</Menu.Item>
-                        <Menu.Item key="5">Bill</Menu.Item>
-                        <Menu.Item key="6">Alex</Menu.Item>
+                        <Menu.Item key="4">Surveyon</Menu.Item>
+                        <Menu.Item key="5">milieu</Menu.Item>
                     </SubMenu>
                     <SubMenu key="sub3" icon={<TeamOutlined/>} title="งานคลิป">
-                        <Menu.Item key="7">Team 1</Menu.Item>
-                        <Menu.Item key="8">Team 2</Menu.Item>
+                        <Menu.Item key="7">ClipClap</Menu.Item>
                     </SubMenu>
                 </Menu>
             </Sider>
