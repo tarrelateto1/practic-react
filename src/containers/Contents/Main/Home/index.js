@@ -29,92 +29,34 @@ class Home extends Component{
                                 <Card
                                     hoverable
                                     style={{ width: "auto" }}
-                                    cover={<img alt="example" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" />}>
-                                    <Meta title="Europe Street beat" description="www.instagram.com" />
+                                    cover={<img alt="example" src="https://lh3.googleusercontent.com/D8P8dF4duodgpOBacxJoV9fcfSM6IkQaVtwwOWKuGGQhEtRjaccE1EvJZ50UCDHx_nk" />}>
+                                    <Meta title="งานคิดเลข" description="" />
                                 </Card>
                             </Col>
                             <Col sm={{span:12}} md={{span:12}} lg={{span:6}} xl={{span:6}} >
                                 <Card
                                     hoverable
                                     style={{ width: "auto" }}
-                                    cover={<img alt="example" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" />}>
-                                    <Meta title="Europe Street beat" description="www.instagram.com" />
+                                    cover={<img alt="example" src="https://i2.wp.com/cryptokiemtien.com/wp-content/uploads/2019/09/CF.gif?fit=403%2C336&ssl=1" />}>
+                                    <Meta title="งานเกมฟาร์ม" description="" />
                                 </Card>
                             </Col>
                             <Col sm={{span:12}} md={{span:12}} lg={{span:6}} xl={{span:6}} >
                                 <Card
                                     hoverable
                                     style={{ width: "auto" }}
-                                    cover={<img alt="example" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" />}>
-                                    <Meta title="Europe Street beat" description="www.instagram.com" />
-                                </Card>
-                            </Col>
-                        </Row>
-                        <Row justify="center" align="middle">
-                            <Col sm={{span:12}} md={{span:12}} lg={{span:6}} xl={{span:6}} >
-                                <Card
-                                    hoverable
-                                    style={{ width: "auto" }}
-                                    cover={<img alt="example" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" />}>
-                                    <Meta title="Europe Street beat" description="www.instagram.com" />
-                                </Card>
-                            </Col>
-                            <Col sm={{span:12}} md={{span:12}} lg={{span:6}} xl={{span:6}} >
-                                <Card
-                                    hoverable
-                                    style={{ width: "auto" }}
-                                    cover={<img alt="example" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" />}>
-                                    <Meta title="Europe Street beat" description="www.instagram.com" />
-                                </Card>
-                            </Col>
-                            <Col sm={{span:12}} md={{span:12}} lg={{span:6}} xl={{span:6}} >
-                                <Card
-                                    hoverable
-                                    style={{ width: "auto" }}
-                                    cover={<img alt="example" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" />}>
-                                    <Meta title="Europe Street beat" description="www.instagram.com" />
-                                </Card>
-                            </Col>
-                            <Col sm={{span:12}} md={{span:12}} lg={{span:6}} xl={{span:6}} >
-                                <Card
-                                    hoverable
-                                    style={{ width: "auto" }}
-                                    cover={<img alt="example" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" />}>
-                                    <Meta title="Europe Street beat" description="www.instagram.com" />
+                                    cover={<img alt="example" src="https://lh3.googleusercontent.com/EsGYNBksVqHwzJzv0rSvyR9oHS5h-ZYfp1v8IYiaeUXlXZLoNw69Hqz79dvrnjjsBQ=s360-rw" />}>
+                                    <Meta title="งานแบบสอบถาม" description="Milieu" />
                                 </Card>
                             </Col>
                         </Row>
-                        <Row justify="center" align="middle">
+                        <Row justify="start" align="middle">
                             <Col sm={{span:12}} md={{span:12}} lg={{span:6}} xl={{span:6}} >
                                 <Card
                                     hoverable
                                     style={{ width: "auto" }}
-                                    cover={<img alt="example" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" />}>
-                                    <Meta title="Europe Street beat" description="www.instagram.com" />
-                                </Card>
-                            </Col>
-                            <Col sm={{span:12}} md={{span:12}} lg={{span:6}} xl={{span:6}} >
-                                <Card
-                                    hoverable
-                                    style={{ width: "auto" }}
-                                    cover={<img alt="example" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" />}>
-                                    <Meta title="Europe Street beat" description="www.instagram.com" />
-                                </Card>
-                            </Col>
-                            <Col sm={{span:12}} md={{span:12}} lg={{span:6}} xl={{span:6}} >
-                                <Card
-                                    hoverable
-                                    style={{ width: "auto" }}
-                                    cover={<img alt="example" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" />}>
-                                    <Meta title="Europe Street beat" description="www.instagram.com" />
-                                </Card>
-                            </Col>
-                            <Col sm={{span:12}} md={{span:12}} lg={{span:6}} xl={{span:6}} >
-                                <Card
-                                    hoverable
-                                    style={{ width: "auto" }}
-                                    cover={<img alt="example" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" />}>
-                                    <Meta title="Europe Street beat" description="www.instagram.com" />
+                                    cover={<img alt="example" src="https://lh3.googleusercontent.com/wYVjnP-TDfEYnrT0n0031vtQBwYcIN-daVPSd7FXIFwCkB3uz2gMWew7Fp1eYn6j8TkX=s360-rw" />}>
+                                    <Meta title="งานแบบสอบถาม" description="Surveyon" />
                                 </Card>
                             </Col>
                         </Row>
