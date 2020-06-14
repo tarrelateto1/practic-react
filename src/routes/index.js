@@ -9,6 +9,7 @@ import BrainBattle from '../containers/Contents/Game/BrainBattle'
 import CoinFarm from '../containers/Contents/Game/CoinFarm'
 import Milieu from '../containers/Contents/Survey/Milieu'
 import Surveyon from '../containers/Contents/Survey/Surveyon'
+import ClipClap from '../containers/Contents/Clip/ClipClap'
 
 export default () => (
     <Switch>
@@ -19,5 +20,6 @@ export default () => (
     <Route path='/game/coin-farm' component={CoinFarm}/>
     <Route path='/survey/milieu' component={Milieu}/>
     <Route path='/survey/surveyon' component={Surveyon}/>
+    <Route path='/clip/clipclap' component={ClipClap}/>
 </Switch>
   )

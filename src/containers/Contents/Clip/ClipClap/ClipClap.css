@@ -1,0 +1,38 @@
+.ant-carousel .slick-slide {
+    text-align: center;
+    height: 250px;
+    line-height: 160px;
+    background: #364d79;
+    overflow: hidden;
+}
+
+.ant-carousel .slick-slide h3 {
+    color: #fff;
+}
+#components-layout-demo-responsive .logo {
+    height: 32px;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 16px;
+}
+
+.site-layout-sub-header-background {
+    background: #fff;
+}
+
+.site-layout-background {
+    background: #fff;
+}
+
+.ant-col {
+    text-align: center;
+    padding: 5px;
+}
+
+.ant-card {
+    margin:auto;
+    padding: 10px;
+}
+img {
+    height: 100%;
+    width: 100%;
+}
