@@ -39,7 +39,8 @@ class SiderComponent extends Component {
                     </SubMenu>
                     <SubMenu key="sub3" icon={<TeamOutlined />} title="งานคลิป">
                         <Menu.Item key="5">ClipClap
-                        <Link to="clip/clipclap"/></Menu.Item>
+                        <Link to="/clip/clipclap"/>
+                        </Menu.Item>
                     </SubMenu>
                 </Menu>
             </Sider>
