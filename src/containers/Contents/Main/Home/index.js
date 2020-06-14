@@ -2,7 +2,7 @@ import React, {Component} from "react";
 import {Card, Layout} from "antd";
 import { Row, Col } from 'antd';
 
-import '../../../../styles/Home.css'
+import './Home.css'
 import { Link } from "react-router-dom";
 
 const { Meta } = Card;
