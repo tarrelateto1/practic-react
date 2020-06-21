@@ -14,12 +14,13 @@ import ClipClap from '../containers/Contents/Clip/ClipClap'
 export default () => (
     <Switch>
     <Route exact path='/' component={Home} />
-    <Route path='/search' component={Promotion} />
-    <Route path='/profile' component={Profile} />
+    {/*<Route path='/search' component={Promotion} />*/}
+    {/*<Route path='/profile' component={Profile} />*/}
     <Route path='/game/brain-battle' component={BrainBattle}/>
     <Route path='/game/coin-farm' component={CoinFarm}/>
     <Route path='/survey/milieu' component={Milieu}/>
     <Route path='/survey/surveyon' component={Surveyon}/>
     <Route path='/clip/clipclap' component={ClipClap}/>
+    
 </Switch>
   )
