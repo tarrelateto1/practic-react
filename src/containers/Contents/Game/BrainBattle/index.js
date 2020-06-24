@@ -12,9 +12,7 @@ import code3 from '../../../../assets/ฺBrainBattle/moneyCode/code3.jpeg'
 //redeem image
 import redeem1 from '../../../../assets/ฺBrainBattle/redeem/redeem1.jpeg'
 import redeem2 from '../../../../assets/ฺBrainBattle/redeem/redeem2.jpeg'
-import code4 from "../../../../assets/Clip/ClipClap/moneyCode/code4.jpeg";
-import code5 from "../../../../assets/Clip/ClipClap/moneyCode/code5.jpeg";
-import redeem3 from "../../../../assets/Clip/ClipClap/redeem/redeem3.jpeg";
+
 
 
 const {Content}=Layout
