@@ -10,6 +10,7 @@ import Surveyon from '../containers/Contents/Survey/Surveyon'
 import ClipClap from '../containers/Contents/Clip/ClipClap'
 //Wallet
 import Paypal from '../containers/Contents/MoneyWallet/Paypal'
+import Bitkub from "../containers/Contents/MoneyWallet/Bitkub";
 //NotFound
 import NotFoundPage from "../containers/Contents/Main/NotFoundPage";
 
@@ -24,6 +25,7 @@ export default () => (
         <Route path='/survey/surveyon' component={Surveyon}/>
         <Route path='/clip/clipclap' component={ClipClap}/>
         <Route path='/wallet/paypal' component={Paypal}/>
+        <Route path='/wallet/bitkub' component={Bitkub}/>
         <Route component={NotFoundPage}/>
     </Switch>
 )
