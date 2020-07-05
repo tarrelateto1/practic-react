@@ -46,7 +46,7 @@ class SiderComponent extends Component {
                             <Link to="/wallet/paypal"/>
                         </Menu.Item>
                         <Menu.Item key="5">Bitkub
-                            {/*<Link to="/dclip/clipclap"/>*/}
+                            {/*<Link to="/clip/clipclap"/>*/}
                         </Menu.Item>
                     </SubMenu>
                 </Menu>
