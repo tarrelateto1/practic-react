@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 
 const { Sider } = Layout;
 const { SubMenu } = Menu;
-
 class SiderComponent extends Component {
     render() {
         return (
