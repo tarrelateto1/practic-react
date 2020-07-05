@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import { Layout, Row, Col } from "antd"
+import React, {Component} from 'react';
+import {Layout, Row, Col} from "antd"
 
 //register image
 
@@ -21,15 +21,16 @@ import redeem1 from '../../../../assets/survey/milieu/redeem/redeem1.JPG'
 
 //bug image
 import bug1 from '../../../../assets/survey/milieu/bug/bug1.JPG'
-const { Content } = Layout
+
+const {Content}=Layout
 
 export default class Milieu extends Component {
     render() {
         return (
-            <Content style={{ margin: '24px 16px 0' }}>
-                <div className="site-layout-background" style={{ padding: 24, minHeight: 360, margin: '24px 16px 0' }}>
-                    <Row justify="start" >
-                        <Col sm={{ span: 12 }} md={{ span: 12 }} lg={{ span: 6 }} xl={{ span: 6 }} >
+            <Content style={{margin: '24px 16px 0'}}>
+                <div className="site-layout-background" style={{padding: 24, minHeight: 360, margin: '24px 16px 0'}}>
+                    <Row justify="start">
+                        <Col sm={{span: 12}} md={{span: 12}} lg={{span: 6}} xl={{span: 6}}>
                             <h1>Milieu</h1>
                             <p>วิธีในการถอนเงิน : Paypal,true wallet</p>
                             <p>คำอธิบายแอพริเคชั่น : เป็นแอพริแคชั่นสำหรับทำแบบสอบถามทั่วไป</p>
@@ -39,10 +40,10 @@ export default class Milieu extends Component {
 
                     <Row justify="center">
                         <Col
-                            sm={{ span: 12 }}
-                            md={{ span: 12 }}
-                            lg={{ span: 12 }}
-                            xl={{ span: 12 }}
+                            sm={{span: 12}}
+                            md={{span: 12}}
+                            lg={{span: 12}}
+                            xl={{span: 12}}
                         >
                             <div className="ct">
                                 <h3>วิธีการสมัครงาน</h3>
@@ -51,10 +52,10 @@ export default class Milieu extends Component {
                     </Row>
                     <Row justify="start">
                         <Col
-                            sm={{ span: 12 }}
-                            md={{ span: 12 }}
-                            lg={{ span: 8 }}
-                            xl={{ span: 8 }}
+                            sm={{span: 12}}
+                            md={{span: 12}}
+                            lg={{span: 8}}
+                            xl={{span: 8}}
                         >
                             <div className="bd-rad">
                                 <Row justify="center">
@@ -64,9 +65,9 @@ export default class Milieu extends Component {
                                 </Row>
                                 <Row justify="center">
                                     <Col span={24}>
-                                        <div style={{ align: "center" }}>
+                                        <div style={{align: "center"}}>
                                             <div className="ct">
-                                                <img src={register1} alt="register1" />
+                                                <img src={register1} alt="register1"/>
                                             </div>
                                         </div>
                                     </Col>
@@ -74,10 +75,10 @@ export default class Milieu extends Component {
                             </div>
                         </Col>
                         <Col
-                            sm={{ span: 12 }}
-                            md={{ span: 12 }}
-                            lg={{ span: 8 }}
-                            xl={{ span: 8 }}
+                            sm={{span: 12}}
+                            md={{span: 12}}
+                            lg={{span: 8}}
+                            xl={{span: 8}}
                         >
                             <div className="bd-rad">
                                 <Row justify="center">
@@ -88,17 +89,17 @@ export default class Milieu extends Component {
                                 <Row justify="center">
                                     <Col span={24}>
                                         <div className="ct">
-                                            <img src={register2} alt="register2" />
+                                            <img src={register2} alt="register2"/>
                                         </div>
                                     </Col>
                                 </Row>
                             </div>
                         </Col>
                         <Col
-                            sm={{ span: 12 }}
-                            md={{ span: 12 }}
-                            lg={{ span: 8 }}
-                            xl={{ span: 8 }}
+                            sm={{span: 12}}
+                            md={{span: 12}}
+                            lg={{span: 8}}
+                            xl={{span: 8}}
                         >
                             <div className="bd-rad">
                                 <Row justify="center">
@@ -109,17 +110,17 @@ export default class Milieu extends Component {
                                 <Row justify="center">
                                     <Col span={24}>
                                         <div className="ct">
-                                            <img src={register3} alt="register3" />
+                                            <img src={register3} alt="register3"/>
                                         </div>
                                     </Col>
                                 </Row>
                             </div>
                         </Col>
                         <Col
-                            sm={{ span: 12 }}
-                            md={{ span: 12 }}
-                            lg={{ span: 8 }}
-                            xl={{ span: 8 }}
+                            sm={{span: 12}}
+                            md={{span: 12}}
+                            lg={{span: 8}}
+                            xl={{span: 8}}
                         >
                             <div className="bd-rad">
                                 <Row justify="center">
@@ -130,17 +131,17 @@ export default class Milieu extends Component {
                                 <Row justify="center">
                                     <Col span={24}>
                                         <div className="ct">
-                                            <img src={register4} alt="register4" />
+                                            <img src={register4} alt="register4"/>
                                         </div>
                                     </Col>
                                 </Row>
                             </div>
                         </Col>
                         <Col
-                            sm={{ span: 12 }}
-                            md={{ span: 12 }}
-                            lg={{ span: 8 }}
-                            xl={{ span: 8 }}
+                            sm={{span: 12}}
+                            md={{span: 12}}
+                            lg={{span: 8}}
+                            xl={{span: 8}}
                         >
                             <div className="bd-rad">
                                 <Row justify="center">
@@ -151,17 +152,17 @@ export default class Milieu extends Component {
                                 <Row justify="center">
                                     <Col span={24}>
                                         <div className="ct">
-                                            <img src={register5} alt="register5" />
+                                            <img src={register5} alt="register5"/>
                                         </div>
                                     </Col>
                                 </Row>
                             </div>
                         </Col>
                         <Col
-                            sm={{ span: 12 }}
-                            md={{ span: 12 }}
-                            lg={{ span: 8 }}
-                            xl={{ span: 8 }}
+                            sm={{span: 12}}
+                            md={{span: 12}}
+                            lg={{span: 8}}
+                            xl={{span: 8}}
                         >
                             <div className="bd-rad">
                                 <Row justify="center">
@@ -172,17 +173,17 @@ export default class Milieu extends Component {
                                 <Row justify="center">
                                     <Col span={24}>
                                         <div className="ct">
-                                            <img src={register6} alt="register6" />
+                                            <img src={register6} alt="register6"/>
                                         </div>
                                     </Col>
                                 </Row>
                             </div>
                         </Col>
                         <Col
-                            sm={{ span: 12 }}
-                            md={{ span: 12 }}
-                            lg={{ span: 8 }}
-                            xl={{ span: 8 }}
+                            sm={{span: 12}}
+                            md={{span: 12}}
+                            lg={{span: 8}}
+                            xl={{span: 8}}
                         >
                             <div className="bd-rad">
                                 <Row justify="center">
@@ -193,7 +194,7 @@ export default class Milieu extends Component {
                                 <Row justify="center">
                                     <Col span={24}>
                                         <div className="ct">
-                                            <img src={register7} alt="register7" />
+                                            <img src={register7} alt="register7"/>
                                         </div>
                                     </Col>
                                 </Row>
@@ -202,10 +203,10 @@ export default class Milieu extends Component {
                     </Row>
                     <Row justify="center">
                         <Col
-                            sm={{ span: 12 }}
-                            md={{ span: 12 }}
-                            lg={{ span: 12 }}
-                            xl={{ span: 12 }}
+                            sm={{span: 12}}
+                            md={{span: 12}}
+                            lg={{span: 12}}
+                            xl={{span: 12}}
                         >
                             <div className="ct">
                                 <h3>วิธีการทำงาน</h3>
@@ -215,10 +216,10 @@ export default class Milieu extends Component {
 
                     <Row justify="start">
                         <Col
-                            sm={{ span: 12 }}
-                            md={{ span: 12 }}
-                            lg={{ span: 8 }}
-                            xl={{ span: 8 }}
+                            sm={{span: 12}}
+                            md={{span: 12}}
+                            lg={{span: 8}}
+                            xl={{span: 8}}
                         >
                             <div className="bd-rad">
                                 <Row justify="center">
@@ -228,9 +229,9 @@ export default class Milieu extends Component {
                                 </Row>
                                 <Row justify="center">
                                     <Col span={24}>
-                                        <div style={{ align: "center" }}>
+                                        <div style={{align: "center"}}>
                                             <div className="ct">
-                                                <img src={howto1} alt="howto1" />
+                                                <img src={howto1} alt="howto1"/>
                                             </div>
                                         </div>
                                     </Col>
@@ -238,10 +239,10 @@ export default class Milieu extends Component {
                             </div>
                         </Col>
                         <Col
-                            sm={{ span: 12 }}
-                            md={{ span: 12 }}
-                            lg={{ span: 8 }}
-                            xl={{ span: 8 }}
+                            sm={{span: 12}}
+                            md={{span: 12}}
+                            lg={{span: 8}}
+                            xl={{span: 8}}
                         >
                             <div className="bd-rad">
                                 <Row justify="center">
@@ -252,17 +253,17 @@ export default class Milieu extends Component {
                                 <Row justify="center">
                                     <Col span={24}>
                                         <div className="ct">
-                                            <img src={howto2} alt="howto2" />
+                                            <img src={howto2} alt="howto2"/>
                                         </div>
                                     </Col>
                                 </Row>
                             </div>
                         </Col>
                         <Col
-                            sm={{ span: 12 }}
-                            md={{ span: 12 }}
-                            lg={{ span: 8 }}
-                            xl={{ span: 8 }}
+                            sm={{span: 12}}
+                            md={{span: 12}}
+                            lg={{span: 8}}
+                            xl={{span: 8}}
                         >
                             <div className="bd-rad">
                                 <Row justify="center">
@@ -273,7 +274,7 @@ export default class Milieu extends Component {
                                 <Row justify="center">
                                     <Col span={24}>
                                         <div className="ct">
-                                            <img src={howto3} alt="howto3" />
+                                            <img src={howto3} alt="howto3"/>
                                         </div>
                                     </Col>
                                 </Row>
@@ -282,10 +283,10 @@ export default class Milieu extends Component {
                     </Row>
                     <Row justify="center">
                         <Col
-                            sm={{ span: 12 }}
-                            md={{ span: 12 }}
-                            lg={{ span: 12 }}
-                            xl={{ span: 12 }}
+                            sm={{span: 12}}
+                            md={{span: 12}}
+                            lg={{span: 12}}
+                            xl={{span: 12}}
                         >
                             <div className="ct">
                                 <h3>วิธีแลกเงิน</h3>
@@ -294,10 +295,10 @@ export default class Milieu extends Component {
                     </Row>
                     <Row justify="center">
                         <Col
-                            sm={{ span: 12 }}
-                            md={{ span: 12 }}
-                            lg={{ span: 8 }}
-                            xl={{ span: 8 }}
+                            sm={{span: 12}}
+                            md={{span: 12}}
+                            lg={{span: 8}}
+                            xl={{span: 8}}
                         >
                             <div className="bd-rad">
                                 <Row justify="center">
@@ -307,9 +308,9 @@ export default class Milieu extends Component {
                                 </Row>
                                 <Row justify="center">
                                     <Col span={24}>
-                                        <div style={{ align: "center" }}>
+                                        <div style={{align: "center"}}>
                                             <div className="ct">
-                                                <img src={redeem1} alt="redeem1" />
+                                                <img src={redeem1} alt="redeem1"/>
                                             </div>
                                         </div>
                                     </Col>
@@ -319,10 +320,10 @@ export default class Milieu extends Component {
                     </Row>
                     <Row justify="center">
                         <Col
-                            sm={{ span: 12 }}
-                            md={{ span: 12 }}
-                            lg={{ span: 12 }}
-                            xl={{ span: 12 }}
+                            sm={{span: 12}}
+                            md={{span: 12}}
+                            lg={{span: 12}}
+                            xl={{span: 12}}
                         >
                             <div className="ct">
                                 <h3>หากเกิดปัญหาแบบนี้ ให้สมัครเมลใหม่นะคะ</h3>
@@ -331,10 +332,10 @@ export default class Milieu extends Component {
                     </Row>
                     <Row justify="center">
                         <Col
-                            sm={{ span: 12 }}
-                            md={{ span: 12 }}
-                            lg={{ span: 8 }}
-                            xl={{ span: 8 }}
+                            sm={{span: 12}}
+                            md={{span: 12}}
+                            lg={{span: 8}}
+                            xl={{span: 8}}
                         >
                             <div className="bd-rad">
                                 <Row justify="center">
@@ -344,9 +345,9 @@ export default class Milieu extends Component {
                                 </Row>
                                 <Row justify="center">
                                     <Col span={24}>
-                                        <div style={{ align: "center" }}>
+                                        <div style={{align: "center"}}>
                                             <div className="ct">
-                                                <img src={bug1} alt="bug1" />
+                                                <img src={bug1} alt="bug1"/>
                                             </div>
                                         </div>
                                     </Col>
