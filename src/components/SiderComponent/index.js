@@ -44,7 +44,7 @@ class SiderComponent extends Component {
                     </SubMenu>
                     <SubMenu key="sub4" icon={<TeamOutlined />} title="กระเป๋าเงินออนไลน์">
                         <Menu.Item key="5">Paypal
-                            {/*<Link to="/clip/clipclap"/>*/}
+                            <Link to="/wallet/paypal"/>
                         </Menu.Item>
                         <Menu.Item key="5">Bitkub
                             {/*<Link to="/clip/clipclap"/>*/}

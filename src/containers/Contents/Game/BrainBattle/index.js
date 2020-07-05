@@ -2,16 +2,16 @@ import React, { Component } from 'react';
 import {Layout,Row,Col} from "antd"
 
 //register image
-import register1 from '../../../../assets/ฺBrainBattle/register/register1.jpeg'
+import register1 from '../../../../assets/BrainBattle/register/register1.jpeg'
 
 //code image
-import code1 from '../../../../assets/ฺBrainBattle/moneyCode/code1.jpeg'
-import code2 from '../../../../assets/ฺBrainBattle/moneyCode/code2.jpeg'
-import code3 from '../../../../assets/ฺBrainBattle/moneyCode/code3.jpeg'
+import code1 from '../../../../assets/BrainBattle/moneyCode/code1.jpeg'
+import code2 from '../../../../assets/BrainBattle/moneyCode/code2.jpeg'
+import code3 from '../../../../assets/BrainBattle/moneyCode/code3.jpeg'
 
 //redeem image
-import redeem1 from '../../../../assets/ฺBrainBattle/redeem/redeem1.jpeg'
-import redeem2 from '../../../../assets/ฺBrainBattle/redeem/redeem2.jpeg'
+import redeem1 from '../../../../assets/BrainBattle/redeem/redeem1.jpeg'
+import redeem2 from '../../../../assets/BrainBattle/redeem/redeem2.jpeg'
 
 
 
