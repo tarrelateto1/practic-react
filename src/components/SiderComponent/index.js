@@ -50,7 +50,7 @@ class SiderComponent extends Component {
                         <Menu.Item key="7">Paypal
                             <Link to="/wallet/paypal"/>
                         </Menu.Item>
-                        <Menu.Item key="7">Bitkub
+                        <Menu.Item key="8">Bitkub
                             <Link to="/wallet/bitkub"/>
                         </Menu.Item>
                     </SubMenu>
