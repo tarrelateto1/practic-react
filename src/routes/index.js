@@ -13,6 +13,7 @@ import Paypal from '../containers/Contents/MoneyWallet/Paypal'
 import Bitkub from "../containers/Contents/MoneyWallet/Bitkub";
 //NotFound
 import NotFoundPage from "../containers/Contents/Main/NotFoundPage";
+import FreeBitco from "../containers/Contents/Bitcoin/FreeBitco";
 
 export default () => (
     <Switch>
@@ -24,6 +25,7 @@ export default () => (
         <Route path='/survey/milieu' component={Milieu}/>
         <Route path='/survey/surveyon' component={Surveyon}/>
         <Route path='/clip/clipclap' component={ClipClap}/>
+        <Route path='/bitcoin/freebitco' component={FreeBitco}/>
         <Route path='/wallet/paypal' component={Paypal}/>
         <Route path='/wallet/bitkub' component={Bitkub}/>
         <Route component={NotFoundPage}/>
