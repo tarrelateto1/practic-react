@@ -5,6 +5,11 @@ import {Row, Col} from 'antd';
 import './Home.css'
 import {Link} from "react-router-dom";
 
+//Icon image
+import clipclapIcon from "../../../../assets/icon/clipclapIcon.png"
+import milieuIcon from "../../../../assets/icon/milieuIcon.png"
+import surveyonIcon from "../../../../assets/icon/surveyonIcon.png"
+
 const {Meta}=Card;
 const {Content}=Layout
 
@@ -20,7 +25,7 @@ class Home extends Component {
                                     hoverable
                                     style={{width: "auto"}}
                                     cover={<img alt="example"
-                                                src="https://lh3.googleusercontent.com/MoZw2SoDTDZNlGYcH_ljvIsiWtcvJqChgdng5sWo73aXDKnptav9IE8hC0yHG1si0A2i"/>}>
+                                                src={clipclapIcon}/>}>
                                     <Meta title="งานดูคลิป" description=""/>
                                 </Card>
                             </Link>
@@ -53,7 +58,7 @@ class Home extends Component {
                                     hoverable
                                     style={{width: "auto"}}
                                     cover={<img alt="example"
-                                                src="https://lh3.googleusercontent.com/EsGYNBksVqHwzJzv0rSvyR9oHS5h-ZYfp1v8IYiaeUXlXZLoNw69Hqz79dvrnjjsBQ=s360-rw"/>}>
+                                                src={milieuIcon}/>}>
                                     <Meta title="งานแบบสอบถาม" description="Milieu"/>
                                 </Card>
                             </Link>
@@ -66,7 +71,7 @@ class Home extends Component {
                                     hoverable
                                     style={{width: "auto"}}
                                     cover={<img alt="example"
-                                                src="https://lh3.googleusercontent.com/wYVjnP-TDfEYnrT0n0031vtQBwYcIN-daVPSd7FXIFwCkB3uz2gMWew7Fp1eYn6j8TkX=s360-rw"/>}>
+                                                src={surveyonIcon}/>}>
                                     <Meta title="งานแบบสอบถาม" description="Surveyon"/>
                                 </Card>
                             </Link>

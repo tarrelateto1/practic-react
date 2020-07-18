@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import { Layout, Menu } from 'antd';
-import { TeamOutlined, UserOutlined, } from '@ant-design/icons';
-import { Link } from "react-router-dom";
+import React, {Component} from 'react';
+import {Layout, Menu} from 'antd';
+import {MailOutlined, TeamOutlined, UserOutlined,} from '@ant-design/icons';
+import {Link} from "react-router-dom";
 
 const { Sider } = Layout;
 const { SubMenu } = Menu;
@@ -46,15 +46,37 @@ class SiderComponent extends Component {
                             <Link to="/bitcoin/freebitco"/>
                         </Menu.Item>
                     </SubMenu>
-                    <SubMenu key="sub5" icon={<TeamOutlined />} title="กระเป๋าเงินออนไลน์">
-                        <Menu.Item key="7">Paypal
-                            <Link to="/wallet/paypal"/>
-                        </Menu.Item>
-                        <Menu.Item key="8">Bitkub
-                            <Link to="/wallet/bitkub"/>
-                        </Menu.Item>
+                    {/*<SubMenu key="sub5" icon={<TeamOutlined />} title="กระเป๋าเงินออนไลน์">*/}
+                    {/*    <Menu.Item key="7">Paypal*/}
+                    {/*        <Link to="/wallet/paypal"/>*/}
+                    {/*    </Menu.Item>*/}
+                    {/*    <Menu.Item key="8">Bitkub*/}
+                    {/*        <Link to="/wallet/bitkub"/>*/}
+                    {/*    </Menu.Item>*/}
+                    {/*</SubMenu>*/}
+                    <SubMenu key="sub5" title={
+                        <span><MailOutlined /><span>กระเป๋าเงินออนไลน์</span></span>}>
+                        <Menu.ItemGroup key="g1" title="Paypal">
+                            <Menu.Item key="ึ7">สมัคร        <Link to="/wallet/paypal"/></Menu.Item>
+                            <Menu.Item key="8">ถอน<Link to="/wallet/paypal-withdraw"/></Menu.Item>
+                        </Menu.ItemGroup>
+                        <Menu.ItemGroup key="g2" title="bitkub">
+                            <Menu.Item key="9">สมัคร<Link to="/wallet/bitkub"/></Menu.Item>
+                            <Menu.Item key="10">ถอน <Link to="/wallet/bitkub-withdraw"/></Menu.Item>
+                        </Menu.ItemGroup>
                     </SubMenu>
+
+                    {/*<SubMenu key="sub2" icon={<AppstoreOutlined />} title="Navigation Two">*/}
+                    {/*    <Menu.Item key="5">Option 5</Menu.Item>*/}
+                    {/*    <Menu.Item key="6">Option 6</Menu.Item>*/}
+                    {/*    <SubMenu key="sub3" title="Submenu">*/}
+                    {/*        <Menu.Item key="7">Option 7</Menu.Item>*/}
+                    {/*        <Menu.Item key="8">Option 8</Menu.Item>*/}
+                    {/*    </SubMenu>*/}
+                    {/*</SubMenu>*/}
                 </Menu>
+
+
             </Sider>
         )
     }
