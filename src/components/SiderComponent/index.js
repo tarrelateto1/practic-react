@@ -58,11 +58,11 @@ class SiderComponent extends Component {
                         <span><MailOutlined /><span>กระเป๋าเงินออนไลน์</span></span>}>
                         <Menu.ItemGroup key="g1" title="Paypal">
                             <Menu.Item key="ึ7">สมัคร        <Link to="/wallet/paypal"/></Menu.Item>
-                            {/*<Menu.Item key="8">ถอน</Menu.Item>*/}
+                            <Menu.Item key="8">ถอน<Link to="/wallet/paypal-withdraw"/></Menu.Item>
                         </Menu.ItemGroup>
                         <Menu.ItemGroup key="g2" title="bitkub">
                             <Menu.Item key="9">สมัคร<Link to="/wallet/bitkub"/></Menu.Item>
-                            {/*<Menu.Item key="10">ถอน </Menu.Item>*/}
+                            <Menu.Item key="10">ถอน <Link to="/wallet/bitkub-withdraw"/></Menu.Item>
                         </Menu.ItemGroup>
                     </SubMenu>
 

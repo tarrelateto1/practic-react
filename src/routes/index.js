@@ -14,6 +14,8 @@ import Bitkub from "../containers/Contents/MoneyWallet/Bitkub";
 //NotFound
 import NotFoundPage from "../containers/Contents/Main/NotFoundPage";
 import FreeBitco from "../containers/Contents/Bitcoin/FreeBitco";
+import PaypalWithDraw from "../containers/Contents/MoneyWallet/PaypalWithDraw";
+import BitkubWithDraw from "../containers/Contents/MoneyWallet/BitkubWithDraw";
 
 export default () => (
     <Switch>
@@ -27,7 +29,9 @@ export default () => (
         <Route path='/clip/clipclap' component={ClipClap}/>
         <Route path='/bitcoin/freebitco' component={FreeBitco}/>
         <Route path='/wallet/paypal' component={Paypal}/>
+        <Route path='/wallet/paypal-withdraw' component={PaypalWithDraw}/>
         <Route path='/wallet/bitkub' component={Bitkub}/>
+        <Route path='/wallet/bitkub-withdraw' component={BitkubWithDraw}/>
         <Route component={NotFoundPage}/>
     </Switch>
 )
