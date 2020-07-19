@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {Layout, Menu} from 'antd';
-import {MailOutlined, TeamOutlined, UserOutlined,} from '@ant-design/icons';
+import {DollarCircleOutlined, ReconciliationOutlined, UserOutlined,BoldOutlined,PlaySquareOutlined} from '@ant-design/icons';
 import {Link} from "react-router-dom";
 
 const { Sider } = Layout;
@@ -28,7 +28,7 @@ class SiderComponent extends Component {
                         <Link to="/game/coin-farm" />
                         </Menu.Item>
                     </SubMenu>
-                    <SubMenu key="sub2" icon={<UserOutlined />} title="งานแบบสอบถาม">
+                    <SubMenu key="sub2" icon={<ReconciliationOutlined />} title="งานแบบสอบถาม">
                         <Menu.Item key="3">Surveyon
                         <Link to="/survey/surveyon" />
                         </Menu.Item>
@@ -36,12 +36,12 @@ class SiderComponent extends Component {
                         <Link to="/survey/milieu" />
                         </Menu.Item>
                     </SubMenu>
-                    <SubMenu key="sub3" icon={<TeamOutlined />} title="งานคลิป">
+                    <SubMenu key="sub3" icon={<PlaySquareOutlined />} title="งานคลิป">
                         <Menu.Item key="5">ClipClap
                         <Link to="/clip/clipclap"/>
                         </Menu.Item>
                     </SubMenu>
-                    <SubMenu key="sub4" icon={<TeamOutlined />} title="งานบิทคอยน์">
+                    <SubMenu key="sub4" icon={<BoldOutlined />} title="งานบิทคอยน์">
                         <Menu.Item key="6">FreeBitco
                             <Link to="/bitcoin/freebitco"/>
                         </Menu.Item>
@@ -55,7 +55,7 @@ class SiderComponent extends Component {
                     {/*    </Menu.Item>*/}
                     {/*</SubMenu>*/}
                     <SubMenu key="sub5" title={
-                        <span><MailOutlined /><span>กระเป๋าเงินออนไลน์</span></span>}>
+                        <span><DollarCircleOutlined /><span>กระเป๋าเงินออนไลน์</span></span>}>
                         <Menu.ItemGroup key="g1" title="Paypal">
                             <Menu.Item key="ึ7">สมัคร        <Link to="/wallet/paypal"/></Menu.Item>
                             <Menu.Item key="8">ถอน<Link to="/wallet/paypal-withdraw"/></Menu.Item>
