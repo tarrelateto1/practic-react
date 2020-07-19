@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 import {Col, Layout, Row} from "antd"
+import {Link} from "react-router-dom";
+
 //register images
 import register1 from '../../../../assets/BitCoin/FreeBitco/register/register1.jpeg'
 import howto1 from "../../../../assets/BitCoin/FreeBitco/Howto/howto1.jpeg";
@@ -17,13 +19,20 @@ export default class FreeBitco extends Component {
                     <Row justify="start">
                         <Col sm={{span: 24}} md={{span: 24}} lg={{span: 24}} xl={{span: 24}}>
                             <h1>FreeBitCo</h1>
-                            <p>วิธีในการถอนเงิน : BitCoin</p>
+                            <p>วิธีในการถอนเงิน : <Link to="/wallet/bitkub">BitCoin(สมัคร)</Link> | <Link to="/wallet/bitkub-withdraw">BitCoin(ถอน)</Link> </p>
                             <p>คำอธิบายเว็ปไซต์ : เป็นเว็ปสำหรับสุ่มบิตคอยน์</p>
                             <p>ลิ้งสมัครเว็ป :
                                 <a href={"https://freebitco.in/?r=12028945\n"}
                                    target="_blank" rel="noopener noreferrer">
                                     &nbsp; คลิก</a>
                             </p>
+                        </Col>
+                    </Row>
+                    <Row justify="center">
+                        <Col sm={{span: 12}} md={{span: 12}} lg={{span: 12}} xl={{span: 12}}>
+                            <div className="ct">
+                                <h3>วิธีสมัครงาน</h3>
+                            </div>
                         </Col>
                     </Row>
                     <Row justify="center">
@@ -59,12 +68,7 @@ export default class FreeBitco extends Component {
                         </Col>
                     </Row>
                     <Row justify="start">
-                        <Col
-                            sm={{span: 12}}
-                            md={{span: 12}}
-                            lg={{span: 8}}
-                            xl={{span: 8}}
-                        >
+                        <Col sm={{span: 12}} md={{span: 12}} lg={{span: 8}} xl={{span: 8}}>
                             <div className="bd-rad">
                                 <Row justify="center">
                                     <Col span={2}>
@@ -82,12 +86,7 @@ export default class FreeBitco extends Component {
                                 </Row>
                             </div>
                         </Col>
-                        <Col
-                            sm={{span: 12}}
-                            md={{span: 12}}
-                            lg={{span: 8}}
-                            xl={{span: 8}}
-                        >
+                        <Col sm={{span: 12}} md={{span: 12}} lg={{span: 8}} xl={{span: 8}}>
                             <div className="bd-rad">
                                 <Row justify="center">
                                     <Col span={2}>
@@ -103,12 +102,7 @@ export default class FreeBitco extends Component {
                                 </Row>
                             </div>
                         </Col>
-                        <Col
-                            sm={{span: 12}}
-                            md={{span: 12}}
-                            lg={{span: 8}}
-                            xl={{span: 8}}
-                        >
+                        <Col sm={{span: 12}} md={{span: 12}} lg={{span: 8}} xl={{span: 8}}>
                             <div className="bd-rad">
                                 <Row justify="center">
                                     <Col span={2}>
@@ -124,12 +118,7 @@ export default class FreeBitco extends Component {
                                 </Row>
                             </div>
                         </Col>
-                        <Col
-                            sm={{span: 12}}
-                            md={{span: 12}}
-                            lg={{span: 8}}
-                            xl={{span: 8}}
-                        >
+                        <Col sm={{span: 12}} md={{span: 12}} lg={{span: 8}} xl={{span: 8}}>
                             <div className="bd-rad">
                                 <Row justify="center">
                                     <Col span={2}>
