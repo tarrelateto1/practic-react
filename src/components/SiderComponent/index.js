@@ -41,6 +41,11 @@ class SiderComponent extends Component {
                         <Link to="/clip/clipclap"/>
                         </Menu.Item>
                     </SubMenu>
+                    <SubMenu key="sub6" icon={<PlaySquareOutlined />} title="งานดูโฆษณา">
+                        <Menu.Item key="12">Neobux
+                            <Link to="/advertise/neobux"/>
+                        </Menu.Item>
+                    </SubMenu>
                     <SubMenu key="sub4" icon={<BoldOutlined />} title="งานบิทคอยน์">
                         <Menu.Item key="6">FreeBitco
                             <Link to="/bitcoin/freebitco"/>

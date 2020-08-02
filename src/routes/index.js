@@ -8,6 +8,9 @@ import CoinFarm from '../containers/Contents/Game/CoinFarm'
 import Milieu from '../containers/Contents/Survey/Milieu'
 import Surveyon from '../containers/Contents/Survey/Surveyon'
 import ClipClap from '../containers/Contents/Clip/ClipClap'
+
+//
+import Neobux from '../containers/Contents/Advertise/Neobux'
 //Wallet
 import Paypal from '../containers/Contents/MoneyWallet/Paypal'
 import Bitkub from "../containers/Contents/MoneyWallet/Bitkub";
@@ -28,9 +31,10 @@ export default () => (
         <Route path='/survey/milieu' component={Milieu}/>
         <Route path='/survey/surveyon' component={Surveyon}/>
         <Route path='/clip/clipclap' component={ClipClap}/>
+        <Route path='/advertise/neobux' component={Neobux}/>
         <Route path='/bitcoin/freebitco' component={FreeBitco}/>
-            <Route path='/bitcoin/btcclick' component={BtcClick}/>
-            <Route path='/wallet/paypal' component={Paypal}/>
+        <Route path='/bitcoin/btcclick' component={BtcClick}/>
+        <Route path='/wallet/paypal' component={Paypal}/>
         <Route path='/wallet/paypal-withdraw' component={PaypalWithDraw}/>
         <Route path='/wallet/bitkub' component={Bitkub}/>
         <Route path='/wallet/bitkub-withdraw' component={BitkubWithDraw}/>
