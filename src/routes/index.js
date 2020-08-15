@@ -21,6 +21,7 @@ import BtcClick from "../containers/Contents/Bitcoin/BtcClick";
 import PaypalWithDraw from "../containers/Contents/MoneyWallet/PaypalWithDraw";
 import BitkubWithDraw from "../containers/Contents/MoneyWallet/BitkubWithDraw";
 import Adbtc from "../containers/Contents/Bitcoin/Adbtc";
+import CoinBulb from "../containers/Contents/Bitcoin/CoinBulb";
 
 export default () => (
     <Switch>
@@ -35,9 +36,9 @@ export default () => (
         <Route path='/advertise/neobux' component={Neobux}/>
         <Route path='/bitcoin/freebitco' component={FreeBitco}/>
         <Route path='/bitcoin/btcclick' component={BtcClick}/>
-            <Route path='/bitcoin/adbtc' component={Adbtc}/>
-
-            <Route path='/wallet/paypal' component={Paypal}/>
+        <Route path='/bitcoin/adbtc' component={Adbtc}/>
+        <Route path='/bitcoin/coinbulb' component={CoinBulb}/>
+        <Route path='/wallet/paypal' component={Paypal}/>
         <Route path='/wallet/paypal-withdraw' component={PaypalWithDraw}/>
         <Route path='/wallet/bitkub' component={Bitkub}/>
         <Route path='/wallet/bitkub-withdraw' component={BitkubWithDraw}/>

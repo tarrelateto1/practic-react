@@ -129,7 +129,7 @@ export default class CoinFarm extends Component {
               </div>
             </Col>
           </Row>
-          <Row justify="start">
+          <Row justify="center">
             <Col
               sm={{ span: 12 }}
               md={{ span: 12 }}

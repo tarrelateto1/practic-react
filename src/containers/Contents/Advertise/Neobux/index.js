@@ -48,7 +48,7 @@ export default class Neobux extends Component {
                             </div>
                         </Col>
                     </Row>
-                    <Row justify="start">
+                    <Row justify="center">
                         <Col sm={{span: 24}} md={{span: 24}} lg={{span: 24}} xl={{span: 24}}>
                             <div className="bd-rad">
                                 <Row justify="center">
@@ -130,7 +130,7 @@ export default class Neobux extends Component {
                             </div>
                         </Col>
                     </Row>
-                    <Row justify="start">
+                    <Row justify="center">
                         <Col sm={{span: 24}} md={{span: 24}} lg={{span: 24}} xl={{span: 24}}>
                             <div className="bd-rad">
                                 <Row justify="center">

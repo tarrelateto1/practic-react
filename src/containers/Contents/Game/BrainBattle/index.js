@@ -56,7 +56,7 @@ render(){
                     </div>
                 </Col>
             </Row>
-            <Row justify="start">
+            <Row justify="center">
                 <Col sm={{span: 12}} md={{span: 12}} lg={{span: 8}} xl={{span: 8}}>
                     <div className="bd-rad">
 
@@ -112,7 +112,7 @@ render(){
                     </div>
                 </Col>
             </Row>
-            <Row justify="start">
+            <Row justify="center">
                 <Col sm={{span: 12}} md={{span: 12}} lg={{span: 8}} xl={{span: 8}}>
                     <div className="bd-rad">
 
