@@ -29,7 +29,7 @@ export default class IceZing extends Component {
                     <Row justify="start" >
                         <Col sm={{ span: 24 }} md={{ span: 24 }} lg={{ span: 24 }} xl={{ span: 24 }} >
                             <h1>Ice-Zing.com</h1>
-                            <p>วิธีในการถอนเงิน : Paypal และ อื่นๆ</p>
+                            <p>วิธีในการถอนเงิน : Paypal และ อื่นๆ ขั้นต่ำ 100 บาท</p>
                             <p> คำอธิบายเกม : เกมฟาร์มไข่นกยิ่งมีไข่มากก็สามารถนำไปแลกเหรียญได้</p>
                         </Col>
                     </Row>
