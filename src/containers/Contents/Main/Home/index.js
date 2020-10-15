@@ -7,8 +7,8 @@ import {Link} from "react-router-dom";
 
 //Icon image
 import clipclapIcon from "src/assets/icon/clipclapIcon.png"
-import milieuIcon from "../../../../assets/icon/milieuIcon.png"
-import surveyonIcon from "../../../../assets/icon/surveyonIcon.png"
+import milieuIcon from "src/assets/icon/milieuIcon.png"
+import surveyonIcon from "src/assets/icon/surveyonIcon.png"
 
 const {Meta}=Card;
 const {Content}=Layout
