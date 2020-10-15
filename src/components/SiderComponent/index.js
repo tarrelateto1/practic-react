@@ -27,6 +27,9 @@ class SiderComponent extends Component {
                         <Menu.Item key="2">เกมฟาร์ม
                         <Link to="/game/coin-farm" />
                         </Menu.Item>
+                        <Menu.Item key="13">เกมผลิดไอติม
+                        <Link to="/game/ice-zing" />
+                        </Menu.Item>
                     </SubMenu>
                     <SubMenu key="sub2" icon={<ReconciliationOutlined />} title="งานแบบสอบถาม">
                         <Menu.Item key="3">Surveyon

@@ -22,6 +22,7 @@ import PaypalWithDraw from "../containers/Contents/MoneyWallet/PaypalWithDraw";
 import BitkubWithDraw from "../containers/Contents/MoneyWallet/BitkubWithDraw";
 import Adbtc from "../containers/Contents/Bitcoin/Adbtc";
 import CoinBulb from "../containers/Contents/Bitcoin/CoinBulb";
+import IceZing from '../containers/Contents/Game/IceZing'
 
 export default () => (
     <Switch>
@@ -30,6 +31,7 @@ export default () => (
         {/*<Route path='/profile' component={Profile} />*/}
         <Route path='/game/brain-battle' component={BrainBattle}/>
         <Route path='/game/coin-farm' component={CoinFarm}/>
+        <Route path='/game/ice-zing' component={IceZing}/>
         <Route path='/survey/milieu' component={Milieu}/>
         <Route path='/survey/surveyon' component={Surveyon}/>
         <Route path='/clip/clipclap' component={ClipClap}/>
