@@ -6,7 +6,7 @@ import './Home.css'
 import {Link} from "react-router-dom";
 
 //Icon image
-import clipclapIcon from "../../../../assets/icon/clipclapIcon.png"
+import clipclapIcon from "src/assets/icon/clipclapIcon.png"
 import milieuIcon from "../../../../assets/icon/milieuIcon.png"
 import surveyonIcon from "../../../../assets/icon/surveyonIcon.png"
 
