@@ -1,18 +1,18 @@
 import React, {Component} from 'react';
 import {Col, Layout, Row} from "antd"
 //paypal images
-import paypal1 from '../../../../assets/Wallet/Paypal/paypal1.jpg'
-import paypal2 from '../../../../assets/Wallet/Paypal/paypal2.jpg'
-import paypal3 from '../../../../assets/Wallet/Paypal/paypal3.jpg'
-import paypal4 from '../../../../assets/Wallet/Paypal/paypal4.jpg'
-import paypal5 from '../../../../assets/Wallet/Paypal/paypal5.jpg'
-import paypal6 from '../../../../assets/Wallet/Paypal/paypal6.jpg'
-import paypal7 from '../../../../assets/Wallet/Paypal/paypal7.jpg'
-import paypal8 from '../../../../assets/Wallet/Paypal/paypal8.jpg'
-import paypal9 from '../../../../assets/Wallet/Paypal/paypal9.jpg'
-import paypal10 from '../../../../assets/Wallet/Paypal/paypal10.jpg'
-import paypal11 from '../../../../assets/Wallet/Paypal/paypal11.jpg'
-import paypal12 from '../../../../assets/Wallet/Paypal/paypal12.jpg'
+import paypal1 from 'src/assets/Wallet/Paypal/paypal1.jpg'
+import paypal2 from 'src/assets/Wallet/Paypal/paypal2.jpg'
+import paypal3 from 'src/assets/Wallet/Paypal/paypal3.jpg'
+import paypal4 from 'src/assets/Wallet/Paypal/paypal4.jpg'
+import paypal5 from 'src/assets/Wallet/Paypal/paypal5.jpg'
+import paypal6 from 'src/assets/Wallet/Paypal/paypal6.jpg'
+import paypal7 from 'src/assets/Wallet/Paypal/paypal7.jpg'
+import paypal8 from 'src/assets/Wallet/Paypal/paypal8.jpg'
+import paypal9 from 'src/assets/Wallet/Paypal/paypal9.jpg'
+import paypal10 from 'src/assets/Wallet/Paypal/paypal10.jpg'
+import paypal11 from 'src/assets/Wallet/Paypal/paypal11.jpg'
+import paypal12 from 'src/assets/Wallet/Paypal/paypal12.jpg'
 
 
 

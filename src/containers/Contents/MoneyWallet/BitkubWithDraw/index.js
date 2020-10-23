@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import {Col, Layout, Row} from "antd"
 //bitkub images
-import bitkub_withdraw1 from '../../../../assets/Wallet/BitkubWithdraw/bitkub_withdraw1.jpg'
-import bitkub_withdraw2 from '../../../../assets/Wallet/BitkubWithdraw/bitkub_withdraw2.jpg'
+import bitkub_withdraw1 from 'src/assets/Wallet/BitkubWithdraw/bitkub_withdraw1.jpg'
+import bitkub_withdraw2 from 'src/assets/Wallet/BitkubWithdraw/bitkub_withdraw2.jpg'
 
 
 

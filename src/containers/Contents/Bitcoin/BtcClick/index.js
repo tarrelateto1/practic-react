@@ -2,23 +2,23 @@ import React, {Component} from 'react';
 import {Col, Layout, Row} from "antd"
 import {Link} from "react-router-dom";
 //register images
-import register1 from "../../../../assets/BitCoin/Btcclick/register/btcclick_register1.jpg";
-import register2 from "../../../../assets/BitCoin/Btcclick/register/btcclick_register2.jpg";
-import register3 from "../../../../assets/BitCoin/Btcclick/register/btcclick_register3.jpg";
-import register4 from "../../../../assets/BitCoin/Btcclick/register/btcclick_register4.jpg";
-import register5 from "../../../../assets/BitCoin/Btcclick/register/btcclick_register5.jpg";
-import register6 from "../../../../assets/BitCoin/Btcclick/register/btcclick_register6.jpg";
+import register1 from "src/assets/BitCoin/Btcclick/register/btcclick_register1.jpg";
+import register2 from "src/assets/BitCoin/Btcclick/register/btcclick_register2.jpg";
+import register3 from "src/assets/BitCoin/Btcclick/register/btcclick_register3.jpg";
+import register4 from "src/assets/BitCoin/Btcclick/register/btcclick_register4.jpg";
+import register5 from "src/assets/BitCoin/Btcclick/register/btcclick_register5.jpg";
+import register6 from "src/assets/BitCoin/Btcclick/register/btcclick_register6.jpg";
 
 //howto images
-import howto1 from "../../../../assets/BitCoin/Btcclick/Howto/btcclick_howto1.jpg";
-import howto2 from "../../../../assets/BitCoin/Btcclick/Howto/btcclick_howto2.jpg";
-import howto3 from "../../../../assets/BitCoin/Btcclick/Howto/btcclick_howto3.jpg";
-import howto4 from "../../../../assets/BitCoin/Btcclick/Howto/btcclick_howto4.jpg";
+import howto1 from "src/assets/BitCoin/Btcclick/Howto/btcclick_howto1.jpg";
+import howto2 from "src/assets/BitCoin/Btcclick/Howto/btcclick_howto2.jpg";
+import howto3 from "src/assets/BitCoin/Btcclick/Howto/btcclick_howto3.jpg";
+import howto4 from "src/assets/BitCoin/Btcclick/Howto/btcclick_howto4.jpg";
 
 //Withdraw images
-import withdraw1 from "../../../../assets/BitCoin/Btcclick/Withdraw/btcclick_withdraw1.jpg";
-import withdraw2 from "../../../../assets/BitCoin/Btcclick/Withdraw/btcclick_withdraw2.png";
-import withdraw3 from "../../../../assets/BitCoin/Btcclick/Withdraw/btcclick_withdraw3.png";
+import withdraw1 from "src/assets/BitCoin/Btcclick/Withdraw/btcclick_withdraw1.jpg";
+import withdraw2 from "src/assets/BitCoin/Btcclick/Withdraw/btcclick_withdraw2.png";
+import withdraw3 from "src/assets/BitCoin/Btcclick/Withdraw/btcclick_withdraw3.png";
 
 const {Content}=Layout
 export default class BtcClick extends Component {

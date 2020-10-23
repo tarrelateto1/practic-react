@@ -2,19 +2,19 @@ import React, {Component} from 'react';
 import {Col, Layout, Row} from "antd"
 import {Link} from "react-router-dom";
 //register images
-import register1 from "../../../../assets/BitCoin/CoinBulb/register/register1.jpg";
-import register2 from "../../../../assets/BitCoin/CoinBulb/register/register2.jpg";
-import register3 from "../../../../assets/BitCoin/CoinBulb/register/register3.png";
+import register1 from "src/assets/BitCoin/CoinBulb/register/register1.jpg";
+import register2 from "src/assets/BitCoin/CoinBulb/register/register2.jpg";
+import register3 from "src/assets/BitCoin/CoinBulb/register/register3.png";
 
 
 //howto images
-import howto1 from "../../../../assets/BitCoin/CoinBulb/howto/howto1.jpg";
-import howto2 from "../../../../assets/BitCoin/CoinBulb/howto/howto2.jpg";
-import howto3 from "../../../../assets/BitCoin/CoinBulb/howto/howto3.jpg";
+import howto1 from "src/assets/BitCoin/CoinBulb/howto/howto1.jpg";
+import howto2 from "src/assets/BitCoin/CoinBulb/howto/howto2.jpg";
+import howto3 from "src/assets/BitCoin/CoinBulb/howto/howto3.jpg";
 
 //Withdraw images
-import withdraw1 from "../../../../assets/BitCoin/CoinBulb/withdraw/withdraw1.jpg";
-import withdraw2 from "../../../../assets/BitCoin/CoinBulb/withdraw/withdraw2.jpg";
+import withdraw1 from "src/assets/BitCoin/CoinBulb/withdraw/withdraw1.jpg";
+import withdraw2 from "src/assets/BitCoin/CoinBulb/withdraw/withdraw2.jpg";
 
 
 const {Content}=Layout

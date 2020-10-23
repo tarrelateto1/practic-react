@@ -3,11 +3,11 @@ import {Col, Layout, Row} from "antd"
 import {Link} from "react-router-dom";
 
 //register images
-import register1 from '../../../../assets/BitCoin/FreeBitco/register/register1.jpeg'
-import howto1 from "../../../../assets/BitCoin/FreeBitco/Howto/howto1.jpeg";
-import howto2 from "../../../../assets/BitCoin/FreeBitco/Howto/howto2.jpeg";
-import howto3 from "../../../../assets/BitCoin/FreeBitco/Howto/howto3.jpeg";
-import howto4 from "../../../../assets/BitCoin/FreeBitco/Howto/howto4.jpeg";
+import register1 from 'src/assets/BitCoin/FreeBitco/register/register1.jpeg'
+import howto1 from "src/assets/BitCoin/FreeBitco/Howto/howto1.jpeg";
+import howto2 from "src/assets/BitCoin/FreeBitco/Howto/howto2.jpeg";
+import howto3 from "src/assets/BitCoin/FreeBitco/Howto/howto3.jpeg";
+import howto4 from "src/assets/BitCoin/FreeBitco/Howto/howto4.jpeg";
 
 
 const {Content}=Layout

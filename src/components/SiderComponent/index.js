@@ -35,7 +35,7 @@ class SiderComponent extends Component {
                         <Menu.Item key="3">Surveyon
                         <Link to="/survey/surveyon" />
                         </Menu.Item>
-                        <Menu.Item key="4">milieu
+                        <Menu.Item key="4">Milieu
                         <Link to="/survey/milieu" />
                         </Menu.Item>
                     </SubMenu>
@@ -56,10 +56,10 @@ class SiderComponent extends Component {
                         <Menu.Item key="11">BtcClick
                             <Link to="/bitcoin/btcclick"/>
                         </Menu.Item>
-                        <Menu.Item key="12">Adbtc
+                        <Menu.Item key="13">Adbtc
                             <Link to="/bitcoin/adbtc"/>
                         </Menu.Item>
-                        <Menu.Item key="12">Coinbulb
+                        <Menu.Item key="14">Coinbulb
                             <Link to="/bitcoin/coinbulb"/>
                         </Menu.Item>
                     </SubMenu>

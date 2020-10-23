@@ -2,24 +2,24 @@ import React, {Component} from 'react';
 import {Col, Layout, Row} from "antd"
 import {Link} from "react-router-dom";
 //register images
-import register1 from "../../../../assets/Advertise/neobux/register/register1.png";
-import register2 from "../../../../assets/Advertise/neobux/register/register2.png";
-import register3 from "../../../../assets/Advertise/neobux/register/register3.png";
-import register4 from "../../../../assets/Advertise/neobux/register/register4.png";
+import register1 from "src/assets/Advertise/neobux/register/register1.png";
+import register2 from "src/assets/Advertise/neobux/register/register2.png";
+import register3 from "src/assets/Advertise/neobux/register/register3.png";
+import register4 from "src/assets/Advertise/neobux/register/register4.png";
 
 
 //howto images
-import howto1 from "../../../../assets/Advertise/neobux/howto/howto1.jpg";
-import howto2 from "../../../../assets/Advertise/neobux/howto/howto2.jpg";
-import howto3 from "../../../../assets/Advertise/neobux/howto/howto3.jpg";
-import howto4 from "../../../../assets/Advertise/neobux/howto/howto4.png";
-import howto5 from "../../../../assets/Advertise/neobux/howto/howto5.jpg";
+import howto1 from "src/assets/Advertise/neobux/howto/howto1.jpg";
+import howto2 from "src/assets/Advertise/neobux/howto/howto2.jpg";
+import howto3 from "src/assets/Advertise/neobux/howto/howto3.jpg";
+import howto4 from "src/assets/Advertise/neobux/howto/howto4.png";
+import howto5 from "src/assets/Advertise/neobux/howto/howto5.jpg";
 
 //Withdraw images
-import withdraw1 from "../../../../assets/Advertise/neobux/withdraw/withdraw1.jpg";
-import withdraw2 from "../../../../assets/Advertise/neobux/withdraw/withdraw2.jpg";
-import withdraw3 from "../../../../assets/Advertise/neobux/withdraw/withdraw3.jpg";
-import withdraw4 from "../../../../assets/Advertise/neobux/withdraw/withdraw4.jpg";
+import withdraw1 from "src/assets/Advertise/neobux/withdraw/withdraw1.jpg";
+import withdraw2 from "src/assets/Advertise/neobux/withdraw/withdraw2.jpg";
+import withdraw3 from "src/assets/Advertise/neobux/withdraw/withdraw3.jpg";
+import withdraw4 from "src/assets/Advertise/neobux/withdraw/withdraw4.jpg";
 
 const {Content} = Layout
 export default class Neobux extends Component {

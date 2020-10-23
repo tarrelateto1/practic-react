@@ -1,18 +1,18 @@
 import React, {Component} from 'react';
 import {Col, Layout, Row} from "antd"
 //bitkub images
-import withdraw_paypal1 from '../../../../assets/Wallet/PaypalWithdraw/withdraw_paypal1.jpg'
-import withdraw_paypal2 from '../../../../assets/Wallet/PaypalWithdraw/withdraw_paypal2.jpg'
-import withdraw_paypal3 from '../../../../assets/Wallet/PaypalWithdraw/withdraw_paypal3.jpg'
-import withdraw_paypal4 from '../../../../assets/Wallet/PaypalWithdraw/withdraw_paypal4.jpg'
-import withdraw_paypal5 from '../../../../assets/Wallet/PaypalWithdraw/withdraw_paypal5.jpg'
-import withdraw_paypal6 from '../../../../assets/Wallet/PaypalWithdraw/withdraw_paypal6.jpg'
-import withdraw_paypal7 from '../../../../assets/Wallet/PaypalWithdraw/withdraw_paypal7.jpg'
-import withdraw_paypal8 from '../../../../assets/Wallet/PaypalWithdraw/withdraw_paypal8.jpg'
-import withdraw_paypal9 from '../../../../assets/Wallet/PaypalWithdraw/withdraw_paypal9.jpg'
-import withdraw_paypal10 from '../../../../assets/Wallet/PaypalWithdraw/withdraw_paypal10.jpg'
-import withdraw_paypal11 from '../../../../assets/Wallet/PaypalWithdraw/withdraw_paypal11.jpg'
-import withdraw_paypal12 from '../../../../assets/Wallet/PaypalWithdraw/withdraw_paypal12.jpg'
+import withdraw_paypal1 from 'src/assets/Wallet/PaypalWithdraw/withdraw_paypal1.jpg'
+import withdraw_paypal2 from 'src/assets/Wallet/PaypalWithdraw/withdraw_paypal2.jpg'
+import withdraw_paypal3 from 'src/assets/Wallet/PaypalWithdraw/withdraw_paypal3.jpg'
+import withdraw_paypal4 from 'src/assets/Wallet/PaypalWithdraw/withdraw_paypal4.jpg'
+import withdraw_paypal5 from 'src/assets/Wallet/PaypalWithdraw/withdraw_paypal5.jpg'
+import withdraw_paypal6 from 'src/assets/Wallet/PaypalWithdraw/withdraw_paypal6.jpg'
+import withdraw_paypal7 from 'src/assets/Wallet/PaypalWithdraw/withdraw_paypal7.jpg'
+import withdraw_paypal8 from 'src/assets/Wallet/PaypalWithdraw/withdraw_paypal8.jpg'
+import withdraw_paypal9 from 'src/assets/Wallet/PaypalWithdraw/withdraw_paypal9.jpg'
+import withdraw_paypal10 from 'src/assets/Wallet/PaypalWithdraw/withdraw_paypal10.jpg'
+import withdraw_paypal11 from 'src/assets/Wallet/PaypalWithdraw/withdraw_paypal11.jpg'
+import withdraw_paypal12 from 'src/assets/Wallet/PaypalWithdraw/withdraw_paypal12.jpg'
 
 
 const {Content}=Layout

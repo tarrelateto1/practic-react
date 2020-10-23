@@ -1,20 +1,20 @@
 import React, {Component} from 'react';
 import {Col, Layout, Row} from "antd"
 //bitkub images
-import bitkub1 from '../../../../assets/Wallet/Bitkub/bitkub1.png'
-import bitkub2 from '../../../../assets/Wallet/Bitkub/bitkub2.png'
-import bitkub3 from '../../../../assets/Wallet/Bitkub/bitkub3.png'
-import bitkub4 from '../../../../assets/Wallet/Bitkub/bitkub4.png'
-import bitkub5 from '../../../../assets/Wallet/Bitkub/bitkub5.png'
-import bitkub6 from '../../../../assets/Wallet/Bitkub/bitkub6.png'
-import bitkub7 from '../../../../assets/Wallet/Bitkub/bitkub7.png'
-import bitkub8 from '../../../../assets/Wallet/Bitkub/bitkub8.png'
-import bitkub9 from '../../../../assets/Wallet/Bitkub/bitkub9.png'
-import bitkub10 from '../../../../assets/Wallet/Bitkub/bitkub10.png'
-import bitkub11 from '../../../../assets/Wallet/Bitkub/bitkub11.png'
-import bitkub12 from '../../../../assets/Wallet/Bitkub/bitkub12.png'
-import bitkub13 from '../../../../assets/Wallet/Bitkub/bitkub13.png'
-import bitkub14 from '../../../../assets/Wallet/Bitkub/bitkub14.png'
+import bitkub1 from 'src/assets/Wallet/Bitkub/bitkub1.png'
+import bitkub2 from 'src/assets/Wallet/Bitkub/bitkub2.png'
+import bitkub3 from 'src/assets/Wallet/Bitkub/bitkub3.png'
+import bitkub4 from 'src/assets/Wallet/Bitkub/bitkub4.png'
+import bitkub5 from 'src/assets/Wallet/Bitkub/bitkub5.png'
+import bitkub6 from 'src/assets/Wallet/Bitkub/bitkub6.png'
+import bitkub7 from 'src/assets/Wallet/Bitkub/bitkub7.png'
+import bitkub8 from 'src/assets/Wallet/Bitkub/bitkub8.png'
+import bitkub9 from 'src/assets/Wallet/Bitkub/bitkub9.png'
+import bitkub10 from 'src/assets/Wallet/Bitkub/bitkub10.png'
+import bitkub11 from 'src/assets/Wallet/Bitkub/bitkub11.png'
+import bitkub12 from 'src/assets/Wallet/Bitkub/bitkub12.png'
+import bitkub13 from 'src/assets/Wallet/Bitkub/bitkub13.png'
+import bitkub14 from 'src/assets/Wallet/Bitkub/bitkub14.png'
 
 
 const {Content}=Layout

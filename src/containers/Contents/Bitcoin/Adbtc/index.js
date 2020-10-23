@@ -2,16 +2,16 @@ import React, {Component} from 'react';
 import {Col, Layout, Row} from "antd"
 import {Link} from "react-router-dom";
 //register images
-import register1 from "../../../../assets/BitCoin/Adbtc/register/register1.jpg";
-import register2 from "../../../../assets/BitCoin/Adbtc/register/register2.jpg";
+import register1 from "src/assets/BitCoin/Adbtc/register/register1.jpg";
+import register2 from "src/assets/BitCoin/Adbtc/register/register2.jpg";
 
 
 //howto images
-import howto1 from "../../../../assets/BitCoin/Adbtc/howto/howto1.jpg";
-import howto2 from "../../../../assets/BitCoin/Adbtc/howto/howto2.jpg";
+import howto1 from "src/assets/BitCoin/Adbtc/howto/howto1.jpg";
+import howto2 from "src/assets/BitCoin/Adbtc/howto/howto2.jpg";
 
 //Withdraw images
-import withdraw1 from "../../../../assets/BitCoin/Adbtc/withdraw/withdraw.jpg";
+import withdraw1 from "src/assets/BitCoin/Adbtc/withdraw/withdraw.jpg";
 
 import './index.css'
 const {Content}=Layout

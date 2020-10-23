@@ -4,23 +4,23 @@ import { Layout, Row, Col } from "antd";
 import "./ClipClap.css";
 
 //register images
-import register1 from "../../../../assets/Clip/ClipClap/register/register1.jpeg";
-import register2 from "../../../../assets/Clip/ClipClap/register/register2.jpeg";
-import register3 from "../../../../assets/Clip/ClipClap/register/register3.jpeg";
-import register4 from "../../../../assets/Clip/ClipClap/register/register4.jpeg";
-import register5 from "../../../../assets/Clip/ClipClap/register/register5.jpeg";
+import register1 from "src/assets/Clip/ClipClap/register/register1.jpeg";
+import register2 from "src/assets/Clip/ClipClap/register/register2.jpeg";
+import register3 from "src/assets/Clip/ClipClap/register/register3.jpeg";
+import register4 from "src/assets/Clip/ClipClap/register/register4.jpeg";
+import register5 from "src/assets/Clip/ClipClap/register/register5.jpeg";
 
 //moneycode images
-import code1 from "../../../../assets/Clip/ClipClap/moneyCode/code1.jpeg";
-import code2 from "../../../../assets/Clip/ClipClap/moneyCode/code2.jpeg";
-import code3 from "../../../../assets/Clip/ClipClap/moneyCode/code3.PNG";
-import code4 from "../../../../assets/Clip/ClipClap/moneyCode/code4.jpeg";
-import code5 from "../../../../assets/Clip/ClipClap/moneyCode/code5.jpeg";
+import code1 from "src/assets/Clip/ClipClap/moneyCode/code1.jpeg";
+import code2 from "src/assets/Clip/ClipClap/moneyCode/code2.jpeg";
+import code3 from "src/assets/Clip/ClipClap/moneyCode/code3.PNG";
+import code4 from "src/assets/Clip/ClipClap/moneyCode/code4.jpeg";
+import code5 from "src/assets/Clip/ClipClap/moneyCode/code5.jpeg";
 
 //redeem images
-import redeem1 from "../../../../assets/Clip/ClipClap/redeem/redeem1.jpeg";
-import redeem2 from "../../../../assets/Clip/ClipClap/redeem/redeem2.jpeg";
-import redeem3 from "../../../../assets/Clip/ClipClap/redeem/redeem3.jpeg";
+import redeem1 from "src/assets/Clip/ClipClap/redeem/redeem1.jpeg";
+import redeem2 from "src/assets/Clip/ClipClap/redeem/redeem2.jpeg";
+import redeem3 from "src/assets/Clip/ClipClap/redeem/redeem3.jpeg";
 
 const { Content } = Layout;
 export default class ClipClap extends Component {
